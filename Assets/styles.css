@@ -1,0 +1,187 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: turquoise;
+    color: black;
+}
+
+header h1 {
+    margin-left: 15px;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+
+/* BANNER */
+
+#banner {
+margin-top: 20px;
+height: 200px;
+display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+}
+
+#banner h2 {
+    border: 3px solid blue;
+    width: 150px;
+    margin: 20px;
+}
+
+main {
+    margin-top: 20px;
+}
+.sections {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.sections h3 {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    margin: 0px;
+    padding: 10px;
+}
+
+.sections div {
+    width: 65%;
+    border-left: 2px solid black;
+}
+
+.sections div p {
+    margin: 20px;
+}
+
+.surf_report{
+    outline: 1px solid red;
+    width: 100%;
+    height: 250px;
+    margin: 20px;
+}
+
+#small-box-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 20px;
+}
+
+.small-box {
+    outline: 1px solid blue;
+    width: 50%;
+    height: 100px;
+}
+
+#box1 {
+    background-image: url(./surf-report-spencer.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box2 {
+    background-image: url(./Calculator.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box3 {
+    background-image: url(./LED.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#box4 {
+
+    background-image: url(./Pretzels.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#box5{
+    background-image: url(./Bolt.webp);
+    background-size: cover;
+    background-position: center;
+}
+/* #aside {
+    display: flex;
+    position: relative;
+}
+
+/* 
+.header nav ul li {
+    display: inline-block;
+    text-decoration: underline;
+    text-align: right;
+} */
+
+/* .flexes {
+    display: flex;
+    flex-wrap: wrap;
+} */
+/* #surf_box {
+    display: flex;
+    width:300px ;
+    position: relative;
+        border-style: solid;
+        border-width: 5px;
+        border-color: lightblue;
+        flex: 0 0 300px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        width: 38%;
+        margin: 6%;
+} */
+/* .card_column {
+    position: relative;
+        border-style: solid;
+        border-width: 5px;
+        border-color: lightblue;
+        flex: 0 0 300px;
+        box-shadow: 10px 10px 5px #aaaaaa;
+        width: 38%;
+        margin: 6%;
+    
+}
+
+#surf_box{
+    display: inline-block;
+    width: 300px;
+    height: 100px;
+
+}
+.card_column img {
+    width: 300px;
+    height: 100px;
+} */
+
+/* #imgborder {
+    border: 15px solid blue;
+    border-image-source: url(Bolt.webp);
+    border-image-slice: 0;
+    border-image-repeat: round;
+border-width: 3px;
+} */
+
+/* .img_text {
+    position: absolute;
+    background: turquoise;
+    bottom: 0;
+    color: white;
+}
+
+.footer_links {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: underline;
+}
