@@ -111,6 +111,26 @@ main {
     background-size: cover;
     background-position: center;
 }
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-around;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 980px) {
+    #nav {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-around;
+    text-decoration: underline;
+    background-color: blue;
+}
+}
+
 /* #aside {
     display: flex;
     position: relative;
