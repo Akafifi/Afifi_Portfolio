@@ -82,7 +82,7 @@ main {
 }
 
 #box1 {
-    background-image: url(./surf-report-spencer.jpg);
+    background-image: url(./Horiseon.png);
     background-size: cover;
     background-position: center;
 }
@@ -131,6 +131,13 @@ main {
 }
 }
 
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: underline;
+    font-size: 25px;
+}
 /* #aside {
     display: flex;
     position: relative;
