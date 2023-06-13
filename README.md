@@ -1,5 +1,8 @@
-Created Flexboxes to organize content
+Afifi's Portfolio
 
-Added deploy link to previous work in image
 
-Used CSS to style HTML
+- Created flexboxes to organize content
+
+- Added deploy link to previous work in image
+
+- Used CSS to style HTML
